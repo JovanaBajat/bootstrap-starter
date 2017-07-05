@@ -1,6 +1,12 @@
 /* VENDORS */
+
 @import "../vendors/bootstrap/css/bootstrap.min.css";
 @import "../vendors/font-awesome/css/font-awesome.min.css";
 
 /* Bootstrap Customize */
+
 @import "./custom.css";
+
+/*Google Font*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat:400,700,900');

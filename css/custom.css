@@ -1,5 +1,157 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,900');
-@import url('https://fonts.googleapis.com/css?family=Lato');
+
+/***********
+*HEADER
+***********/
+
+#header {
+  background-color: #2c3e50;
+  height: 100px;
+  padding: 2em;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+#header_nav {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#header_nav a {
+  color: white;
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.liste ul li {
+  list-style: none;
+  color: white;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+nav li a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+
+.liste ul li:hover {
+  color: #18bc9c;
+}
+
+
+/**************
+*START SECTION
+***************/
+
+#start {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 80vh;
+  background-color: #18BC9C;
+  text-align: center;
+  color: #FFF;
+  font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#start h1 {
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 4.75em;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+#start .line {
+  background-color: #FFF;
+  display: inline-block;
+  height: .5vh;
+  width: 100%;
+}
+
+#start .star-container {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 1.2em 0;
+}
+
+#start .star i {
+  padding: 0 .3em;
+}
+
+#start p {
+  margin: 0;
+  font-size: 1.75em;
+}
+
+
+
+/*ABOUT SECTION*/
+
+#about.container-fluid {
+  padding: 4em 0;
+  background-color: #18BC9C;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+}
+#about h2 {
+  font-size: 42px;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 20px;
+}
+.line-star {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.line-star i {
+  padding: 0 8px;
+}
+.borderWhite {
+  width: 10%;
+  border-bottom: 5px solid #fff;
+}
+#about p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+#about a {
+  color: #fff;
+  font-size: 20px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+#about a:hover {
+  background-color: #fff;
+  color: #18BC9C;
+  transition: 0.5s;
+}
+/*END ABOUT SECTION*/
+
+/*CONTACT SECTION*/
 
 hr.star-primary {
     padding: 0;
@@ -63,3 +215,6 @@ form {
 	margin-right: 10px;
 	margin-left: 10px;
 }
+
+/*END CONTACT SECTION*/
+
