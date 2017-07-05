@@ -163,6 +163,9 @@ font-size: 42px;
 /*END ABOUT SECTION*/
 
 /*CONTACT SECTION*/
+#send {
+  margin-bottom: 20px;
+}
 
 hr.star-primary {
     padding: 0;
