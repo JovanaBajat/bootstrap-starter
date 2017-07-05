@@ -1,7 +1,5 @@
 /* Bootstrap Customize */
-<<<<<<< HEAD
 /*ABOUT SECTION*/
-@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat:700');
 
 #about.container-fluid {
   padding: 4em 0;
@@ -45,7 +43,6 @@
   transition: 0.5s;
 }
 /*END ABOUT SECTION*/
-=======
 
 
 /***********
@@ -152,4 +149,3 @@ nav li a {
   margin: 0;
   font-size: 1.75em;
 }
->>>>>>> 3476b99d891256565c73ccaf44958419247348c7
