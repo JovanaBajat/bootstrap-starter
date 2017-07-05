@@ -1,1 +1,60 @@
 /* Bootstrap Customize */
+
+
+/**************
+*START SECTION
+***************/
+
+#start {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 80vh;
+  background-color: #18BC9C;
+  text-align: center;
+  color: #FFF;
+  font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#start h1 {
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 4.75em;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+#start .line {
+  background-color: #FFF;
+  display: inline-block;
+  height: .5vh;
+  width: 100%;
+}
+
+#start .star-container {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 1.2em 0;
+}
+
+#start .star i {
+  padding: 0 .3em;
+}
+
+#start p {
+  margin: 0;
+  font-size: 1.75em;
+}
