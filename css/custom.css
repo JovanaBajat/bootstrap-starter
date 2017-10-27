@@ -1,3 +1,7 @@
+body {
+  padding-top: 100px;
+}
+
 /*NAVBAR*/
 
 .navbar {
@@ -49,11 +53,12 @@
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  height: 80vh;
   background-color: #18BC9C;
   text-align: center;
   color: #FFF;
   font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding-top: 4em;
+  padding-bottom: 4em;
 }
 
 #start h1 {
@@ -94,15 +99,19 @@
 /*END START*/
 
 /*PORTFOLIO*/
-
-#container {
-/**/
+#line-star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+#portfolio #border {
+  width: 10%;
+  border-bottom: 4px solid #2C3E50;
+}
 
-#portfolio {
-text-align: center;
-padding: 10px;
+#portfolio div {
+  margin-bottom: 20px;
 }
 
 #portfolio h2 {

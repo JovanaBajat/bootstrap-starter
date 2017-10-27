@@ -19,7 +19,7 @@
 
 <!-- NAVBAR -->
 
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -69,20 +69,27 @@
 
 <!-- PORTFOLIO -->
 
-<div class="container-fluid" id= "portfolio">
+<div class="container-fluid text-center" id= "portfolio">
 <h2> portfolio </h2>
-<i class="fa fa-star"></i>
-</div> <!--fin du div portfolio -->
+
+<div id="line-star">
+  <div id="border"></div>
+  <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+  <div id="border"></div>
+</div>
 
 <div class="container-fluid" id="images">
-<section class="row">
-       <div class="col-xs-4 col-sm-3 col-md-4"><img class="img-responsive" src="images/cabin.png" alt="cabin"></div>
-       <div class="col-xs-4 col-sm-3 col-md-4"><img class="img-responsive" src="images/cake.png" alt="cake"></div>
-       <div class="col-xs-4 col-sm-3 col-md-4"><img class="img-responsive" src="images/circus.png" alt="circus"></div>
-       <div class="col-xs-4 col-sm-3 col-md-4"><img class="img-responsive" src="images/game.png" alt="game"></div>
-       <div class="col-xs-4 col-sm-3 col-md-4"><img class="img-responsive" src="images/safe.png" alt="safe"></div>
-      <div class="col-xs-4 col-sm-3 col-md-4"><img class="img-responsive" src="images/submarine.png" alt="submarine"></div>
-     </section>
+  <div class="row">
+    <img class="img-responsive col-md-4 col-xs-4" src="images/cabin.png" alt="cabin">
+    <img class="img-responsive col-md-4 col-xs-4" src="images/cake.png" alt="cake">
+    <img class="img-responsive col-md-4 col-xs-4" src="images/circus.png" alt="circus">
+  </div>
+  <div class="row">
+    <img class="img-responsive col-md-4 col-xs-4" src="images/game.png" alt="game">
+    <img class="img-responsive col-md-4 col-xs-4" src="images/safe.png" alt="safe">
+    <img class="img-responsive col-md-4 col-xs-4" src="images/submarine.png" alt="submarine">
+  </div>
+</div>
 </div>
 
 <!-- END PORTFOLIO -->
